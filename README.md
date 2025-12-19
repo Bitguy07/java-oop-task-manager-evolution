@@ -27,7 +27,7 @@ The idea crystallized from this reflection: Java has layers of evolution—manua
 - Recode it **three times:**
   1. **Old Style:** Pre-Java 8 verbosity (manual everything, no sugar).
   2. **Hybrid Style:** Mix old reliability with new efficiencies (e.g., records for DTOs, some lambdas).
-  3. **Modern Style:**Java 21+ best practices (immutables, pattern matching, minimal code).
+  3. **Modern Style:** Java 21+ best practices (immutables, pattern matching, minimal code).
 
   The purpose? Visualize the **transition steps—**from boilerplate hell to elegant, colleague-friendly code. This equips me (and you!) to decode any enterprise codebase, regardless of era. Inspired by design patterns books and Reddit threads on "JS to Java pain points," it's a self-taught roadmap to senior backend readiness.
 
