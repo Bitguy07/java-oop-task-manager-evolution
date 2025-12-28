@@ -22,10 +22,10 @@ No database—everything's in-memory. Added filtering evolves the old version wi
 
 ## Tech Stack
 
-**Java:** 17 (JDK 17—supports records, sealed classes, var)
-**Build Tool:** Maven (for compilation and execution)
-**Testing:** Basic JUnit 3.8.1 (in `src/test/java`)
-**No External Libs:** Pure core Java (beyond JUnit for tests; uses `java.util.stream` for hybrids)
+- **Java:** 17 (JDK 17—supports records, sealed classes, var)
+- **Build Tool:** Maven (for compilation and execution)
+- **Testing:** Basic JUnit 3.8.1 (in `src/test/java`)
+- **No External Libs:** Pure core Java (beyond JUnit for tests; uses `java.util.stream` for hybrids)
 
 ## Project Structure
 
@@ -111,11 +111,11 @@ The app starts a menu: Choose options (1-8) to interact. Note: Prompts use `prin
 
 ## Troubleshooting
 
-**"Main class not found":** Ensure `<mainClass>com.bitguy.main.App</mainClass>` in `pom.xml` matches your entry file.
-**Java Version Mismatch:** Set `JAVA_HOME` to JDK 17 path (e.g., `export JAVA_HOME=/path/to/jdk-17`).
-**Clean Build:** `mvn clean` to reset `target/`.
-**No Maven?:** Use `javac` manually: `find src -name "*.java" | xargs javac -d target/classes`, then java -cp target/classes com.bitguy.main.App.
-**Input Issues:** If prompts seem "empty" (e.g., extra newlines), it's due to `println`—type after the cursor.
+- **"Main class not found":** Ensure `<mainClass>com.bitguy.main.App</mainClass>` in `pom.xml` matches your entry file.
+- **Java Version Mismatch:** Set `JAVA_HOME` to JDK 17 path (e.g., `export JAVA_HOME=/path/to/jdk-17`).
+- **Clean Build:** `mvn clean` to reset `target/`.
+- **No Maven?:** Use `javac` manually: `find src -name "*.java" | xargs javac -d target/classes`, then java -cp target/classes com.bitguy.main.App.
+- **Input Issues:** If prompts seem "empty" (e.g., extra newlines), it's due to `println`—type after the cursor.
 
 ## Usage Example
 
