@@ -4,8 +4,8 @@
 ## Introduction
 
 This is the **second iteration** of a console-based Task Management System, built in a **hybrid old + new Java style** (targeting Java 11-17 compatibility) as part of a personal learning project to deeply explore the evolution of Java OOP practices. The intention is to master Java's progression firsthand: starting from verbose pre-Java 8 code, transitioning through this mixed phase (blending boilerplate with modern features like records for DTOs, limited lambdas/streams, var inference, and default interface methods), and culminating in fully modern Java 21+. By coding the same project three times, I aim to understand legacy codebases (for enterprise adaptability), appreciate transitional efficiencies, and adopt cutting-edge best practices for clean, maintainable backend development.
-
 This version evolves the old-style by reducing some verbosity (e.g., records auto-generate equals/hashCode/toString, streams for selective filtering) while retaining core "old" elements (manual getters/setters on entities, full constructors, loops where streams aren't forced). It highlights how Java 8-17 bridged the gap: safer resources (try-with-resources), functional touches (lambdas), and immutability hints (sealed classes). Total ~680 LOC—notice the slimming from the old version's ~750.
+
 **Intention:** Gain fluency in mixed-era code (common in mid-2010s-2020s projects) to read/upgrade real-world systems, while seeing iterative improvements in readability and safety.
 
 ## Features
